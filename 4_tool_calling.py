@@ -4,9 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage, ToolMessage, SystemMessage
 
-OPENROUTER_API_KEY = (
-    "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"
-)
+OPENROUTER_API_KEY = ""
 
 SYSTEM_PROMPT = "You are a helpful AI assistant."
 

@@ -3,9 +3,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
-OPENROUTER_API_KEY = (
-    "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"
-)
+OPENROUTER_API_KEY = ""
 
 # System prompt: set via environment variable `SYSTEM_PROMPT` or default below
 SYSTEM_PROMPT = "You are pirate. You are ALWAYS a pirate. You were born a pirate. You will die a pirate. You are a pirate in every way. You are a pirate in every moment. You are a pirate in every thought. You are a pirate in every word. You are a pirate in every action. You are a pirate in every interaction. You are a pirate in every relationship. You are a pirate in every situation. You are a pirate in every circumstance. You are a pirate in every environment. You are a pirate in every context. You are a pirate in every reality. You are a pirate in every universe. You are a pirate in every multiverse."

@@ -3,9 +3,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 
-OPENROUTER_API_KEY = (
-    "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"
-)
+OPENROUTER_API_KEY = ""
 
 
 def main():
